@@ -1,0 +1,84 @@
+body {
+	font-family: 'Roboto Mono', 'Consolas', monospace;
+	background: #f8f8f8;
+    background-image: url(images/photo-1460472178825-e5240623afd5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.8rem;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #222;
+	margin-top: 32px;
+	margin-bottom: 16px;
+	text-shadow: 0 2px 8px #e0e0e0;
+}
+
+#output {
+	background: #fff;
+    backdrop-filter: blur(10px);
+	max-width: 340px;
+	margin: 0 auto;
+	padding: 32px 24px 16px 24px;
+	border-radius: 8px;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+	font-size: 1.08rem;
+	border: 7px dashed #000000;
+}
+
+.receipt-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.receipt-list li {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 0;
+	border-bottom: 1px dotted #000000;
+}
+
+.receipt-list li:last-child {
+	border-bottom: none;
+}
+
+.receipt-label {
+	color: #444;
+	font-weight: 500;
+}
+
+.receipt-value {
+	color: #222;
+	font-weight: bold;
+}
+
+.total-row {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #1769aa;
+	margin-top: 12px;
+}
+
+button {
+	display: block;
+	margin: 24px auto 0 auto;
+	padding: 10px 28px;
+	background: #2d8cf0;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	font-size: 1.1rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+button:hover {
+	background: #1769aa;
+}
